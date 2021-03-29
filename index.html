@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Product Landing Page</title>
+        <link rel="stylesheet" href="./CSS/style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@700&display=swap" rel="stylesheet"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body id="body">
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+        <header id="header">
+            <div id="flex-container">
+                <div id="flex-item1">
+                    <a href="#" target="_blank"><img id="header-img" src="./Images/Cooler-Master_logo_180911_white_wordmark.png" alt="Logo Image"></a>
+                </div>
+                <div id="flex-item2">
+                    <h1 id="header-text">Masterbox NR200</h1>
+                </div>
+                <div id="flex-item3">
+                    <a href="#" target="_blank"><img id="header-img1" src="./Images/Cooler-Master_logo_180911_white_wordmark.png" alt="Logo Image"></a>
+                </div>
+            </div>
+            <nav id="nav-bar">
+                <ul id="nav-link">
+                    <li><a class="nav-link" href="#form">Subscribe</a></li>
+                    <li><a class="nav-link" href="#flex-container2">Information</a></li>
+                    <li><a class="nav-link" href="#video-container">Video</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main id="main">
+            <aside id="flex-container1">
+                <h2>Big Features, Small Size</h2>
+                <form id="form" action="https://www.freecodecamp.com/email-submit">
+                    <label for="email"><input id="email" type="email" name="email" placeholder="Enter your E-mail address" required></label>
+                    <label for="submit"><input id="submit" type="submit" name="submit" value="Subscribe"></label>
+                </form>
+                <h2>Triple-slot GPU support</h2>
+                <p>Supporting graphics cards of up to 330mm (inc power connector) in length and 60mm of width (triple slot)</p>
+                <h2>360 Degree Accessibility</h2>
+                <p>Removeable panels enable easy access to the front, back and sides of the case for easy installation</p>
+                <h2>Out-of-the-box Custom Cooling Support</h2>
+                <p>Support for custom loop and AIO radiators of up to 280mm on the side and 240mm on the bottom</p>
+            </aside>
+            <section id="container">
+                <img id="img" src="./Images/nr200_01_intro-imageleftorright.jpg" alt="#">
+            </section>
+            <section id="flex-container2">
+                <div class="container2-div1">
+                    <h2 class="header-text-container2">High Quality Materials</h2>
+                    <img class="img" src="https://s3-eu-west-1.amazonaws.com/cdn.coolermaster.com/assets/1111/nr200_08_materials-imageleftorright.png" alt="#">  
+                    <p>Thick, powder coated SGCC steel keeps the fit and finish of the chassis clean and durable even with harsh traveling conditions.</p>
+                </div>
+                <div class="container2-div2">
+                    <h2 class="header-text-container2">Unrestricted Cooling</h2>
+                    <img class="img" src="https://s3-eu-west-1.amazonaws.com/cdn.coolermaster.com/assets/1024/nr200_02_cooling_potential-imageleftorright.png" alt="#">  
+                    <p>The NR200 can house up to 7 fans in total for every cooling configuration imaginable. Five panels are flanked with ventilation for unrestricted airflow.</p>
+                </div>
+                <div class="container2-div3">
+                    <h2 class="header-text-container2">Easy, Tool-Free Access</h2>
+                    <img class="img" src="https://s3-eu-west-1.amazonaws.com/cdn.coolermaster.com/assets/1107/nr200_04_tool_free_access-imageleftorright.png" alt="#">  
+                    <p>All external panels and top mounted fans are secured with pins for easy removal, facilitating quick acces to the internals without the use of tools.</p>
+                </div>
+            </section>
+            <section id="video-container">
+                <iframe id="video" src="https://www.youtube.com/embed/8k1B2tai1yg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </section>
+        </main>
+        <footer id="footer">
+            <div><a id="link-home" href="#flex-container1">Home</a></div>
+        </footer>
+    </body>
+</html>
